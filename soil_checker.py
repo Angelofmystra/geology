@@ -26,7 +26,7 @@ csv_f = csv.reader(f)
 
 for row in csv_f:
 	soil = []
-	check(soil.append(row))
+	check(soil.extend(row))
 
 print soilA
 
