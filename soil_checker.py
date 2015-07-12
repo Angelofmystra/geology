@@ -28,7 +28,4 @@ for row in csv_f:
 	soil = []
 	check(soil.extend(row))
 
-print soilA
-
-
 f.close()
